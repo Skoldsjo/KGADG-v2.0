@@ -160,7 +160,7 @@ h2 {
 /* Image Container */
 
 .image-container {
-    max-height: 600px;
+    max-height: 400px;
     display: flex;
     text-align: center;
 }
@@ -180,6 +180,12 @@ h2 {
 
 .image-right {
     width: 35%;
+}
+
+/* Footer */
+
+footer {
+    height: 300px;
 }
 
 /* Responsive */
