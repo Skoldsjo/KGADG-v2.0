@@ -1,0 +1,27 @@
+
+
+.contact-container {
+    height: 80vh;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1000px) {
+    .contact-section {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contact-section {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h4 {
+        padding: 30px;
+    }
+}
+

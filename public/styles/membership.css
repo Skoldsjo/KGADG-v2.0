@@ -1,0 +1,66 @@
+
+.hero {
+    height: 700px;
+}
+
+.grid-container {
+    background-image: url(/images/membershipHero.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    height: 400px;
+}
+
+.hero-text {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 2px #000;
+    font-size: 18px;
+}
+
+.hero-title {
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+.swish {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.swish p {
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #91D6EA;
+    border-radius: 5px;
+    border: 1px solid #04799A;
+}
+
+.grid-position {
+    max-width: 1300px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+/* Content */
+
+
+
+@media screen and (max-width: 1169px) {
+    .hero {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 789px) {
+    .hero {
+        height: 1350px;
+    }
+}
