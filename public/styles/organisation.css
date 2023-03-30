@@ -1,0 +1,30 @@
+
+
+
+.organisation-container {
+    padding: 40px 100px;
+}
+
+.title {
+    font-size: 30px;
+
+}
+
+.info-box {
+    padding: 20px 0;
+}
+
+.subject {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.subject-info {
+    padding: 5px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .organisation-container {
+        padding: 40px 40px;
+    }
+}

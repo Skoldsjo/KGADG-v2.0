@@ -1,7 +1,11 @@
 
 
 .contact-container {
-    height: 80vh;
+    min-height: 400px;
+}
+
+.space {
+    height: 200px;
 }
 
 
